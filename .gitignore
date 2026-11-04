@@ -1,0 +1,37 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local SQLite databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Uploaded documents
+uploads/
+data/uploads/
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/

@@ -1,0 +1,31 @@
+# Backend
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+jinja2==3.1.6
+python-multipart==0.0.20
+pydantic-settings==2.10.1
+
+# LangGraph and LangChain
+langgraph
+langchain-core==1.6.1
+langchain-community==0.4.2
+langchain-tavily==0.2.18
+langchain-pinecone==0.2.13
+langchain-text-splitters==1.1.2
+
+# Groq LLM
+langchain-groq
+
+# Hugging Face Embeddings
+langchain-huggingface
+sentence-transformers
+
+# Pinecone Vector Database
+pinecone==7.3.0
+
+# Document Processing
+pypdf==6.16.2
+python-docx==1.2.0
+
+# Environment Variables
+python-dotenv==1.1.1
