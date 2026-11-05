@@ -30,5 +30,3 @@ Configure the required API keys in a local `.env` file before running.
 
 **User Query → LangGraph Router → Knowledge Base Retrieval → Evidence Grading → Web Search (if needed) → LLM → Response**
 
-## Attribution
-Adapted from the open-source [Enterprise IT Support Agentic RAG Copilot](https://github.com/entbappy/Enterprise-IT-Support-Agentic-RAG-Copilot) project (Apache 2.0). Customized with Groq inference, Hugging Face embeddings, and additional configuration improvements.
